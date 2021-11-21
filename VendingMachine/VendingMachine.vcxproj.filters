@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Beverages">
+      <UniqueIdentifier>{b10721de-dd4a-478f-bd06-4dc74e5f52d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fruits">
+      <UniqueIdentifier>{393cb4c2-bfc4-4295-bc6a-a0cf4f24fc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Snacks">
+      <UniqueIdentifier>{701521c6-7bbf-401d-9467-389ebe5019b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Beverages">
+      <UniqueIdentifier>{df782d88-ec55-4fc0-94f9-11ee42702cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fruits">
+      <UniqueIdentifier>{7dff27bd-0c37-4a91-80f6-38b6611e9bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snacks">
+      <UniqueIdentifier>{1e3a1ae9-3a6b-4ead-a93a-16ddf5d3568f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{6c304b68-d805-45e1-8ad5-9a99bc1466bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{6d29caa0-e2bd-46de-ba16-f17ca3ba1bac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoftDrink.h">
+      <Filter>Header Files\Beverages</Filter>
+    </ClInclude>
+    <ClInclude Include="Juice.h">
+      <Filter>Header Files\Beverages</Filter>
+    </ClInclude>
+    <ClInclude Include="VendingMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Header Files\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="Banana.h">
+      <Filter>Header Files\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="Biscuit.h">
+      <Filter>Header Files\Snacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Chips.h">
+      <Filter>Header Files\Snacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExistingProductException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductNotFoundException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InsufficientBalanceException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductOutOfStockException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductCodeInvalidException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryTypeMismatchException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoftDrink.cpp">
+      <Filter>Source Files\Beverages</Filter>
+    </ClCompile>
+    <ClCompile Include="Juice.cpp">
+      <Filter>Source Files\Beverages</Filter>
+    </ClCompile>
+    <ClCompile Include="VendingMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrencyUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>Source Files\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="Banana.cpp">
+      <Filter>Source Files\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="Biscuit.cpp">
+      <Filter>Source Files\Snacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chips.cpp">
+      <Filter>Source Files\Snacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Operations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExistingProductException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductNotFoundException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="InsufficientBalanceException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductOutOfStockException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductCodeInvalidException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="CategoryTypeMismatchException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
